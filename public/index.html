@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>助学贷款管理后台</title>
+    <script type="text/javascript">
+        (function (doc, win) {
+            var docEle = doc.documentElement;
+            function setRemUnit() {
+                var width = docEle.clientWidth;
+                width && (docEle.style.fontSize = (width / 19.2) + 'px');
+            };
+            doc.addEventListener('DOMContentLoaded', setRemUnit, false);
+            win.addEventListener('resize', setRemUnit, false);
+        })(document, window);
+    </script>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
